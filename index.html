@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literary club JNTUHCEH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="why this club.html">WHY THIS CLUB?</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                     <li><a href="blogs and posts.html">POSTS</a></li>
+                     <li><a href="contact us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>LIT CLUB</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Aspernatur totam ad fugit repudiandae culpa placeat? <br> Assumenda id perferendis velit placeat autem, <br> eum molestiae ab facere nostrum, cum ipsam exercitationem porro.
+
+            </p>
+            <a href="" class="hero-btn">Join us to be apart of our community</a>
+        </div>
+
+    </section>
+     <!---course-->
+     <section class="events">
+         <h1>EVENTS</h1>
+         <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Earum laboriosam esse consequuntur voluptate beatae asperiores corrupti, <br> laborum aperiam, corporis quisquam possimus eum soluta quis neque minus voluptates! Beatae, <br> commodi consequuntur!</P>
+     <div class="row">
+         <div class="events-col">
+             <h3>JAM SESSIONS</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit repudiandae pariatur. Asperiores rerum architecto expedita enim quasi! Corporis cum dolor repellat autem repellendus facere, accusantium deleniti provident in reprehenderit.</p>
+        
+            </div>
+            <div class="events-col">
+             <h3>DEBATE</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit repudiandae pariatur. Asperiores rerum architecto expedita enim quasi! Corporis cum dolor repellat autem repellendus facere, accusantium deleniti provident in reprehenderit.</p>
+        
+            </div>
+            <div class="events-col">
+             <h3>PUZZLES</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit repudiandae pariatur. Asperiores rerum architecto expedita enim quasi! Corporis cum dolor repellat autem repellendus facere, accusantium deleniti provident in reprehenderit.</p>
+        
+            </div>
+     </div>
+        </section>
+<!--special thanks-->
+ <section class="specialthanks">
+     <h1>SPECIAL THANKS TO....</h1>
+     <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores numquam repellat excepturi voluptate repellendus aut accusamus nam provident minima deserunt illo commodi tenetur, fugit, adipisci, quidem facilis recusandae voluptates labore!</P>
+     <div class="row">
+         <div class="st-col">
+            <img src="images/princy new.jpg" alt="principal">
+             <div class="layer">
+                 <h3>PRINCIPAL</h3>
+             </div>
+            </div>
+             <div class="st-col">
+                <img src="images/parvathi mam new.jpg" alt="faculty coordinator">
+                <div class="layer">
+                    <h3>FACULTY COORDINATOR</h3>
+                </div>
+            </div>
+         </div>
+     </div>
+ </section>
+
+<!--call to action-->
+<section class="cta">
+    <h1>JOIN US</h1>
+    <a href="contact us.html" class="hero-btn">CONTACT US</a>
+
+
+</section>
+<!--Footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Inventore adipisci maiores veritatis.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by LIT Club</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--java script for toggle menu --> 
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showmenu() {
+           navLinks.style.right = "0";
+       }
+       function hidemenu() {
+           navLinks.style.right = "-200px";
+       }
+   </script>
+</body>
+</html>
